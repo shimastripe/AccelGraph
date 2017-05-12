@@ -66,30 +66,4 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/vertical_margin"
-        android:text="@string/y_label"
-        android:textSize="@dimen/small_text_size" />
-
-    <jp.ac.titech.itpro.sdl.accelgraph.GraphView
-        android:id="@+id/y_view"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/vertical_margin"
-        android:text="@string/z_label"
-        android:textSize="@dimen/small_text_size" />
-
-    <jp.ac.titech.itpro.sdl.accelgraph.GraphView
-        android:id="@+id/z_view"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
-
 </LinearLayout>

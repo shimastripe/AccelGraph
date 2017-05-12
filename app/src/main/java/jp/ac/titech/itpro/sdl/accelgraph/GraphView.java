@@ -11,7 +11,7 @@ import android.view.View;
 public class GraphView extends View {
 
     private final static String TAG = "GraphView";
-    private final static float Ymax = 20;
+    private final static float Ymax = 5;
     private final static int NDATA_INIT = 256;
 
     private int ndata = NDATA_INIT;
